@@ -25,28 +25,28 @@
                                 <rect key="frame" x="51" y="499" width="204" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="backgroundColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="2MD-6u-GqT"/>
+                                    <action selector="backgroundColorControlBySlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="2MD-6u-GqT"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="128" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="5OG-nG-8WR">
                                 <rect key="frame" x="51" y="567" width="200" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="backgroundColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="t99-PD-iJn"/>
+                                    <action selector="backgroundColorControlBySlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="t99-PD-iJn"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="128" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="r6Z-4b-dIc">
                                 <rect key="frame" x="51" y="628" width="200" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="backgroundColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ea1-wz-NSC"/>
+                                    <action selector="backgroundColorControlBySlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ea1-wz-NSC"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8EZ-33-z17">
                                 <rect key="frame" x="51" y="701" width="200" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="backgroundColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="jXs-k4-xcM"/>
+                                    <action selector="backgroundColorControlBySlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="jXs-k4-xcM"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3K-JU-hNe">
@@ -77,6 +77,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tk0-e2-sdK">
+                                <rect key="frame" x="48" y="777" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Random"/>
+                                <connections>
+                                    <action selector="RandomColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rPX-mV-QUT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
