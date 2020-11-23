@@ -18,39 +18,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="128" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="kc1-OO-m9g">
-                                <rect key="frame" x="55" y="478" width="180" height="30"/>
+                                <rect key="frame" x="55" y="409" width="180" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" systemColor="systemPinkColor"/>
                                 <connections>
-                                    <action selector="backgroundColorControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="2MD-6u-GqT"/>
+                                    <action selector="backgroundControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="2MD-6u-GqT"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="128" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="5OG-nG-8WR">
-                                <rect key="frame" x="55" y="534" width="180" height="30"/>
+                                <rect key="frame" x="55" y="459" width="180" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
                                 <connections>
-                                    <action selector="backgroundColorControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="t99-PD-iJn"/>
+                                    <action selector="backgroundControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="t99-PD-iJn"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="128" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="r6Z-4b-dIc">
-                                <rect key="frame" x="55" y="589" width="180" height="30"/>
+                                <rect key="frame" x="55" y="509" width="180" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="backgroundColorControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ea1-wz-NSC"/>
+                                    <action selector="backgroundControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ea1-wz-NSC"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8EZ-33-z17">
-                                <rect key="frame" x="55" y="647" width="180" height="30"/>
+                                <rect key="frame" x="55" y="559" width="180" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" systemColor="systemPurpleColor"/>
                                 <connections>
-                                    <action selector="backgroundColorControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="jXs-k4-xcM"/>
+                                    <action selector="backgroundControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="jXs-k4-xcM"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3K-JU-hNe">
-                                <rect key="frame" x="245" y="479" width="140" height="21"/>
+                                <rect key="frame" x="243" y="413" width="140" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Red">
@@ -64,7 +64,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pnA-CB-cKB">
-                                <rect key="frame" x="245" y="535" width="140" height="21"/>
+                                <rect key="frame" x="243" y="463" width="140" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Green">
@@ -77,39 +77,63 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alpha" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeU-QJ-fQA" userLabel="Alpha Slider Label">
-                                <rect key="frame" x="245" y="651" width="140" height="21"/>
+                                <rect key="frame" x="243" y="563" width="140" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                 <color key="textColor" systemColor="systemPurpleColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tk0-e2-sdK">
-                                <rect key="frame" x="57" y="774" width="83" height="82"/>
+                                <rect key="frame" x="166" y="771" width="83" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Random" image="machikoRandom"/>
                                 <connections>
-                                    <action selector="RandomColorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rPX-mV-QUT"/>
+                                    <action selector="RandomButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rPX-mV-QUT"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="VkY-jM-siq">
-                                <rect key="frame" x="55" y="704" width="180" height="30"/>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="VkY-jM-siq">
+                                <rect key="frame" x="55" y="709" width="180" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="minimumTrackTintColor" systemColor="systemOrangeColor"/>
+                                <color key="minimumTrackTintColor" systemColor="systemTealColor"/>
                                 <connections>
                                     <action selector="backgroundGradientSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="6Pi-oS-X67"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBW-QY-Qwa">
-                                <rect key="frame" x="245" y="708" width="140" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gradient" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBW-QY-Qwa">
+                                <rect key="frame" x="243" y="713" width="140" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Gradient">
-                                        <attributes>
-                                            <color key="NSColor" systemColor="systemOrangeColor"/>
-                                            <font key="NSFont" size="20" name="MarkerFelt-Thin"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                <color key="textColor" systemColor="systemTealColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="8qe-R2-kyF">
+                                <rect key="frame" x="55" y="659" width="180" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" systemColor="systemOrangeColor"/>
+                                <connections>
+                                    <action selector="backgroundControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Agt-Ty-fCE"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Border Width" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IP-q8-jn2">
+                                <rect key="frame" x="245" y="662" width="149" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="75" minValue="0.0" maxValue="150" translatesAutoresizingMaskIntoConstraints="NO" id="YCa-cI-Yyy">
+                                <rect key="frame" x="55" y="609" width="180" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" systemColor="systemYellowColor"/>
+                                <connections>
+                                    <action selector="backgroundControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="SAs-iv-aNK"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Corner Radius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCF-di-hGv">
+                                <rect key="frame" x="243" y="612" width="151" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="v21-ey-crY">
@@ -121,36 +145,36 @@
                                 </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBf-HP-X3G">
-                                <rect key="frame" x="172" y="781" width="70" height="75"/>
+                                <rect key="frame" x="57" y="771" width="70" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Reset" image="machikoReset"/>
                                 <connections>
-                                    <action selector="backgroundClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eb2-sK-lOk"/>
+                                    <action selector="ClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eb2-sK-lOk"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hij-af-Nh7">
-                                <rect key="frame" x="32" y="66" width="350" height="350"/>
+                                <rect key="frame" x="57" y="52" width="300" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N0v-k8-ePd">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7o-1C-WFp">
-                                <rect key="frame" x="127" y="437" width="160" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
-                                <color key="textColor" systemColor="systemGray2Color"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blue" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48T-0f-axA">
-                                <rect key="frame" x="245" y="593" width="140" height="21"/>
+                                <rect key="frame" x="243" y="513" width="140" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                 <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7o-1C-WFp">
+                                <rect key="frame" x="127" y="360" width="160" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -158,7 +182,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="ModeLabel" destination="x7o-1C-WFp" id="Bfn-2g-FpP"/>
                         <outlet property="RandomColorButton" destination="Tk0-e2-sdK" id="Zg3-kK-5zO"/>
                         <outlet property="ShowImageView" destination="N0v-k8-ePd" id="paH-ct-tKw"/>
                         <outlet property="ShowUIView" destination="hij-af-Nh7" id="drA-7A-OCC"/>
@@ -166,11 +189,16 @@
                         <outlet property="alphaSlider" destination="8EZ-33-z17" id="ebJ-yJ-cnt"/>
                         <outlet property="blueSlider" destination="r6Z-4b-dIc" id="tfk-N8-rqT"/>
                         <outlet property="blueSliderLabel" destination="48T-0f-axA" id="gEu-LV-mx4"/>
+                        <outlet property="borderSliderLabel" destination="0IP-q8-jn2" id="gKs-43-26L"/>
+                        <outlet property="borderWidthSlider" destination="8qe-R2-kyF" id="Mca-xv-gus"/>
+                        <outlet property="cornerRadiusSlider" destination="YCa-cI-Yyy" id="9hX-j4-Q3Z"/>
+                        <outlet property="cornerRadiusSliderLabel" destination="TCF-di-hGv" id="XEP-5c-nyo"/>
                         <outlet property="gradientSlider" destination="VkY-jM-siq" id="DdB-k5-f25"/>
                         <outlet property="gradientSliderLabel" destination="cBW-QY-Qwa" id="Xu0-8C-2fZ"/>
                         <outlet property="gradientSwitch" destination="v21-ey-crY" id="XeR-wq-UvB"/>
                         <outlet property="greenSlider" destination="5OG-nG-8WR" id="CLP-IZ-tEb"/>
                         <outlet property="greenSliderLabel" destination="pnA-CB-cKB" id="lZ5-pu-vdx"/>
+                        <outlet property="modeLabel" destination="x7o-1C-WFp" id="Bfn-2g-FpP"/>
                         <outlet property="redSlider" destination="kc1-OO-m9g" id="zET-kF-vRi"/>
                         <outlet property="redSliderLabel" destination="b3K-JU-hNe" id="caj-Ah-K4J"/>
                     </connections>
@@ -186,8 +214,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -203,6 +231,9 @@
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
