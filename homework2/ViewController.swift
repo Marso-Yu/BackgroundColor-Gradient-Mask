@@ -44,7 +44,7 @@ class ViewController: UIViewController {
 
     
     
-    @IBAction func gradientMode(_ sender: Any) {
+    @IBAction func switchMode(_ sender: Any) {
         if gradientSwitch.isOn{
             modeLabel.text = "Gradient Mask"
             drawMaskImage()
@@ -74,7 +74,7 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func ClearButton(_ sender: Any) {
+    @IBAction func clearButton(_ sender: Any) {
         if gradientSwitch.isOn{
             gradientSlider.value = 0.2
             drawMaskImage()
@@ -88,7 +88,7 @@ class ViewController: UIViewController {
         drawMaskImage()
     }
     
-    @IBAction func RandomButton(_ sender: Any) {
+    @IBAction func randomButton(_ sender: Any) {
         if gradientSwitch.isOn{
             //let gradientRandom = Float.random(in: 0.0...1)
             //gradientSlider.value = gradientRandom

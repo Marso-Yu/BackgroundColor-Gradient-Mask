@@ -22,7 +22,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" systemColor="systemPinkColor"/>
                                 <connections>
-                                    <action selector="backgroundControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="2MD-6u-GqT"/>
+                                    <action selector="backgroundControlSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="t8v-ky-0DJ"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="128" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="5OG-nG-8WR">
@@ -88,7 +88,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Random" image="machikoRandom"/>
                                 <connections>
-                                    <action selector="RandomButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rPX-mV-QUT"/>
+                                    <action selector="randomButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rPX-mV-QUT"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="VkY-jM-siq">
@@ -141,7 +141,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" systemColor="systemTealColor"/>
                                 <connections>
-                                    <action selector="gradientMode:" destination="BYZ-38-t0r" eventType="valueChanged" id="X6R-DE-kZr"/>
+                                    <action selector="switchMode:" destination="BYZ-38-t0r" eventType="valueChanged" id="X6R-DE-kZr"/>
                                 </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBf-HP-X3G">
@@ -149,7 +149,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Reset" image="machikoReset"/>
                                 <connections>
-                                    <action selector="ClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eb2-sK-lOk"/>
+                                    <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eb2-sK-lOk"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hij-af-Nh7">
